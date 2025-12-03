@@ -1,0 +1,9 @@
+{
+  // 您的Worker名称，可自定义
+  "name": "my-worker",
+  // 兼容性日期，通常设为当天或最新
+  "compatibility_date": "2025-12-03",
+  // 最重要的配置：指向您Worker主文件的路径
+  // 例如，如果主文件在 src/index.ts，则如下配置：
+  "main": "src/index.ts"
+}
